@@ -1,6 +1,30 @@
 h1{
-  color: #0000FF;
+  color: white;
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px; 
+  font-family: impact;
 }
+
 h2{
   color: #00CCFF;
+}
+
+hr {
+margin-left: auto;
+margin-right: auto;
+}
+
+body {
+/*	margin-left: 5em; */
+}
+
+.column {
+    padding: 15px;
+    width: 50%;
+}
+
+.row {
+	display: flex;
 }
