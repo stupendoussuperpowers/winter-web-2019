@@ -1,0 +1,149 @@
+body{
+    background-image: linear-gradient(to right,rgba(255,0,0,0), rgba(192,192,192,1));
+    background-size: cover;
+}
+.top{
+    position: relative;
+    color:white;
+    background-image: radial-gradient(circle,rgba(0,0,0,1), rgba(255,0,0,0));
+    text-align: center;
+    top:-20px;
+    text-transform: uppercase;
+   padding:15px;
+}
+.em {
+    -webkit-animation: top 1s linear infinite;
+    animation: top 5s linear infinite;
+}
+@-webkit-keyframes top{
+    0%{color:tomato;}
+    25%{color: yellow;}
+    50%{color: lightblue;}
+    75%{color: navajowhite;}
+    100%{color: ghostwhite;}
+
+}
+@keyframes top{
+    0%{color:tomato;}
+    25%{color: yellow;}
+    50%{color: lightblue;}
+    75%{color: navajowhite;}
+    100%{color: ghostwhite;}
+
+}
+.im{
+    position:absolute;
+    top:130px;
+    left: 40px;
+}
+.image{
+    position:absolute;
+    top:190px;
+    border: 5px solid black;
+    font-size: 14px;
+    background-color: aliceblue;
+}
+.image:hover{
+   
+    border: 5px solid #e40046;
+    color: #e40046
+   
+}
+
+
+.link{
+    color:darkolivegreen;
+    
+    
+    
+}
+.link1{
+    color:white;
+    background-color: black;
+    text-decoration: none;
+    border:3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+   
+    
+    
+}
+.link1:hover{
+    color:black;
+    background-color: white;
+    text-decoration: none;
+    border:3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+   
+    
+    
+}
+#nav{
+    position: relative;
+    top:-30px; 
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 10px;
+    word-spacing: 10px;
+}
+.fl{
+    position: relative;;
+    left:700px;
+    width:1100px;
+    top:20px;
+    background-image: linear-gradient(to bottom right, rgba(0,0,1,0),rgba(255,0,0,0), rgba(0,0,0,1));
+    color: #e40046;
+    font-size: 35px;
+    border-radius: 10px;
+    padding: 5px;
+
+
+   
+    }
+   .fl:hover{
+    background-image: linear-gradient(to bottom right, rgba(0,0,0,1),rgba(255,0,0,0), rgba(0,0,0,1));
+    color: aliceblue;
+   }
+    .pic{
+        position: relative;
+        width:600px;
+    }
+.boy{
+    position: absolute;
+    top:580px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    font-size:25px;
+}
+.boy:hover{
+    background-image: linear-gradient(to bottom right, rgba(0,0,1,0),rgba(255,0,0,0), rgba(0,0,0,1));
+    color: #e40046;
+}
+.h{
+    font-size: 32px;
+}
+.footer{
+    position: absolute;
+    bottom: 10px;
+    left:260px
+   
+}
+.footer h4{
+    text-align: center;
+}
+.icon{
+    position: relative;
+    float:right;
+    right:30px;
+    letter-spacing: 3px;
+}
+.fa {
+  text-decoration: none;
+  color:black;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
