@@ -1,1 +1,5 @@
-#heading{background-color: black;color: white; font-family: 'Roboto', sans-serif;text-align: center; text-transform: uppercase;}
+#heading{background-color: black;color: white; font-family: 'Bebas Neue', cursive;text-align: center; text-transform: uppercase;}
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
