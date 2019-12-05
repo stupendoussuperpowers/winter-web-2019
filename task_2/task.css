@@ -1,5 +1,49 @@
-#heading{background-color: black;color: white; font-family: 'Bebas Neue', cursive;text-align: center; text-transform: uppercase;}
+#heading{
+	background-color: black;
+	color: white; font-family: 'Bebas Neue', cursive;
+	text-align: center;
+	text-transform: uppercase;
+}
 .container {
     display: grid;
     grid-template-columns: 50% 50%; 
+}
+#links{
+	 padding-right: 30px;
+	 padding-left: 30px;
+	 padding-top: : 10px;
+	 padding-bottom: : 10px;
+	font-style: italic;
+	color: black;
+	display: grid;
+    grid-template-columns: 50% 50%; 
+    font-size: 20px;
+ }
+
+a{
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	color: black;
+
+}
+#weight{
+	font-size: xx-large;
+	font-family: 'Roboto', sans-serif;
+}
+#fire{
+	background-color: white;
+	color: black;
+
+}
+ul{
+	 font-family: 'Roboto', sans-serif;
+	 font-size: large;
+
+}
+.bold::first-letter{
+	font-weight: bold;
+}
+span{
+	font-style: italic;
+	color: black;
 }
