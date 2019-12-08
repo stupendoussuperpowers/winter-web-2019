@@ -1,0 +1,38 @@
+h1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+body {
+    border: 5px solid black;
+}
+
+p {
+    font-family: 'Lucida Sans';
+    padding-left: 30px;
+    column-span: all;
+}
+
+a {
+    color: rgb(51, 50, 50);
+    color: rgb(51, 50, 50);
+    color: rgb(51, 50, 50);
+    text-align: center;
+}
+
+.columnleft {
+    float: left;
+    width: 50% !important;
+}
+
+.columnright {
+    float: right;
+    width: 50% !important;
+}
+
+.column {
+    width: 100%;
+}

@@ -1,0 +1,27 @@
+h1 {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+body {
+    border: 5px solid black;
+    margin-top: 25px;
+}
+
+p {
+    border: 1px solid gray;
+}
+
+a {
+    color: rgb(51, 50, 50);
+    color: rgb(51, 50, 50);
+    color: rgb(51, 50, 50);
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
