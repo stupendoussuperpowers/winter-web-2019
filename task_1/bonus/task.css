@@ -12,10 +12,6 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
-.container {
-    display: grid;
-    grid-template-columns: 50% 50%; 
-}
 #links{
 	 padding-right: 30px;
 	 padding-left: 30px;
@@ -27,12 +23,19 @@
     grid-template-columns: 50% 50%; 
     font-size: 20px;
  }
+ .container {
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+
 
 a{
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	color: black;
 
+}
+#round{border-radius: 50%;
 }
 #weight{
 	font-size: xx-large;
