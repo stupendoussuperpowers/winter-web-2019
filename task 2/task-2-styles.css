@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgba(52, 164, 235, 0.623);
+}
+.d1 {
+    width: 400px;
+    height: 300px;
+    padding: 50px;
+    border: 1px solid red;
+    margin: 50px;
+    font-weight: bold;
+}
+.heading {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+}
+.w{
+    background-color: rgb(198,234,125);
+}
+.f{
+    background-color: darkcyan;
+}
+.y{
+    background-color: rgb(220, 20, 60, 0.7); 
+}
+.s{
+    background-color: rgb(226, 206, 27);
+}
+.i{
+    background-color: indianred;
+}
+.q{
+    background-color: rgb(128, 0, 0, 0.7);
+}
