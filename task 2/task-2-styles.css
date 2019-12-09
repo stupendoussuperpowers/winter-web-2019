@@ -38,3 +38,11 @@
 .q{
     background-color: rgb(128, 0, 0, 0.7);
 }
+@media screen and (max-width: 800px) {
+    .d1 {
+      width: 35%;
+    }
+@media screen and (max-width: 500px) {
+        .d1 {
+          width: 100%;
+        }
