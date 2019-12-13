@@ -1,0 +1,126 @@
+/* CSS STYLESHEET FOR TASK-2 */
+.flex-container {
+  display: flex;
+  flex-wrap:wrap;
+  width:100%;
+  height:100%;
+  justify-content: space-around;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  width: 25%;
+  height:30%;
+  margin:0.55%;
+  line-height:40%;
+  font-size: 50px;
+}
+.bg{
+    background-color:dodgerblue;
+}
+
+.a{
+    background-color:  rgb(74,201,89);
+}
+
+.b{
+    background-color: blue;
+}
+.c{
+    background-color: rgb(225,48,108);
+}
+
+.d{
+    background-color: yellow;
+}
+.e{
+    background-color: red;
+}
+.f{
+    background-color: firebrick;
+}
+
+.border{
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.design{
+    padding:20px;
+    text-align:left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bigsize{
+    font-size:50px;
+    color:blanchedalmond;
+}
+
+.smallsize{
+    font-size:20px;
+    color:black;
+}
+img.r {
+  vertical-align:middle;
+  height: 15%;
+  width: 15%;
+
+}
+
+@media only screen and (max-width:620px){
+
+    .flex-container{
+        flex-wrap:nowrap;
+        flex-direction: column;
+        justify-content:center;
+        align-items: space-between;
+    }
+
+    .flex-container > div {
+        font-size: 20px;
+    }
+
+    .border{
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    .design{
+        padding:10px;
+    }
+    
+    .bigsize{
+        font-size:30px;
+    }
+
+    .smallsize{
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (max-width:800px){
+    
+    .flex-container{
+        flex-direction: column;
+        align-items: space-between;
+    }
+
+    .flex-container > div {
+        font-size: 30px;
+    }
+
+    .border{
+        border-top: 5px solid black;
+        border-bottom: 5px solid black;
+    }
+    .design{
+        padding:20px;
+    }
+    
+    .bigsize{
+        font-size:40px;
+    }
+
+    .smallsize{
+        font-size: 20px;
+    }
+}
