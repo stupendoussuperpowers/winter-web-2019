@@ -1,0 +1,44 @@
+div{
+  display: flex;
+  flex-wrap:wrap;
+  width:100%;
+  height:100%;
+  justify-content: space-around;
+  background-color: #7fffd4;
+}
+p{ width: 25%;
+  height:30%;
+  margin:0.55%;
+  line-height:40%;
+  font-size: 50px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  padding: 25px;
+}
+
+span{ font-size:20px;
+    color:black;
+}
+
+img{ vertical-align: middle;
+	max-height:20%;
+     max-width: 20%
+}
+#a{
+    background-color:rgb(74,201,89);
+}
+#b{
+    background-color:#99cccc;
+}
+#c{ background-color:#ffb347;
+
+}
+#d{
+   background-color:#fffb00;
+}
+#e{
+   background-color:#f88379;
+}
+#f{
+   background-color:#f49ac2;
+}
